@@ -68,7 +68,7 @@ paginate = 10
 			description = "It starts with a system design."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpeg"
+			image = "fulls/03.jpg"
 			thumb = "thumbs/03.jpg"
 			title = "DevOps"
 			description = "Build Automation, CI/CD, Infrastructure setup in AWS and Azure"

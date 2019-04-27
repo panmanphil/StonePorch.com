@@ -26,7 +26,8 @@ paginate = 10
 	custom_js   = []
 	custom_css  = ["css/overrides.css"]
 
-
+  [params.avatar]
+    hide = true
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = ""
@@ -61,16 +62,16 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "headshot.jpg"
+			image = "system-architecture.png"
 			thumb = "headshot.jpg"
-			title = "DevOps."
-			description = "Build Automation, CI/CD, Infrastructure setup in AWS and Azure"
+			title = "Systems architecture"
+			description = "It starts with a system design."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/03.jpeg"
 			thumb = "thumbs/03.jpg"
-			title = "Systems architecture"
-			description = "It is not just the software but the combination of systems working together with people that make applications sing."
+			title = "DevOps"
+			description = "Build Automation, CI/CD, Infrastructure setup in AWS and Azure"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/02.jpg"

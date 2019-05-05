@@ -68,26 +68,30 @@ paginate = 10
 			description = "It starts with a system design."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
+
+			image = "software-full.png"
+			thumb = "software-scaled.png"
+			title = "Software development."
+			description = "Yes, I write code, work as a contractor, consultant, or whatever combination you need."
+
+			
+		[[params.portfolio.gallery]]
+		  image = "devops-full.png"
+			thumb = "DevOps-Fixed.jpg"
 			title = "DevOps"
 			description = "Build Automation, CI/CD, Infrastructure setup in AWS and Azure"
 
+		
+			
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
+			image = "security-full.png"
+			thumb = "security-scaled.png"
 			title = "Security."
 			description = "Identity, authentication, authorization, profile management, MFA, reviews, audit preparation."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Software development."
-			description = "Yes, I write code, work as a contractor, consultant, or whatever combination you need."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
+			image = "iot-full.png"
+			thumb = "IoT-Fixed.jpg"
 			title = "IOT."
 			description = "Cloud based interfaces to hardware devices, with access to an electrical engineer."
 
